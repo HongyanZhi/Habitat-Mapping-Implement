@@ -8,9 +8,9 @@ TopDownMap Coordinate System
 OccupiedMap Coordinate System  
 ![Input](figures/OccupiedMapCoordinate.png)  
 ## Application Overview
-Input : RGB,DEPTH,SEMANTIC
+### Input : RGB,DEPTH,SEMANTIC
 ![Input](figures/Input.png)
-Output:     
+### Output:     
 OccupiedMap    
 ![Input](figures/OccupiedMap.png)  
 SemanticOccupiedMap   
