@@ -12,7 +12,7 @@ OccupiedMap Coordinate System  : The coordinate center locates on the left-top o
 ### Input : RGB,DEPTH,SEMANTIC
 ![Input](figures/Input.png)
 ### Output:     
-OccupiedMap : project the depth image into the top down map
+OccupiedMap : project the depth image into the top down map    
 ![Input](figures/OccupiedMap.png)  
 SemanticOccupiedMap : project the semantic image into the top down map which each pixels has some semantic meanings  
 ![Input](figures/SemanticOccupiedMap.png)    
