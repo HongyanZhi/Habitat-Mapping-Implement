@@ -31,7 +31,7 @@ Please run the demo functions in example.py and view the reference visualization
 # Usage
 1. Init   
 ```python
-app = Application((image_width, image_height), fov, depth_threshold, resolution_meter2pixel, occupied_map_size, camera_height, free_index, occupied_index)
+app = Application((image_width, image_height), fov, depth_threshold=1, resolution_meter2pixel=0.005, occupied_map_size, camera_height, free_index=1, occupied_index=2)
 ```
 2. Api
 ```python
