@@ -32,9 +32,6 @@ import numpy as np
 
 @registry.register_dataset(name="ObjectNav-v3")
 class ObjectNavDatasetV3(ObjectNavDatasetV1):
-    '''r
-    处理gibson episode id冲突问题
-    '''
     def __init__(self, config: Optional[Config] = None) -> None:
         super().__init__(config)
         
